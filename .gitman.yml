@@ -1,0 +1,122 @@
+location: .gitman
+sources:
+  - name: nimbro_network
+    type: git
+    repo: https://github.com/ctu-mrs/nimbro_network.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/nimbro_network
+    scripts:
+      - git submodule update --init --recursive
+  - name: mrs_optic_flow
+    type: git
+    repo: https://github.com/ctu-mrs/mrs_optic_flow.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/mrs_optic_flow
+    scripts:
+      - git submodule update --init --recursive
+  - name: hector_slam
+    type: git
+    repo: https://github.com/ctu-mrs/hector_slam.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/hector_slam
+    scripts:
+      - git submodule update --init --recursive
+  - name: trajectory_loader
+    type: git
+    repo: https://github.com/ctu-mrs/trajectory_loader.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/trajectory_loader
+    scripts:
+      - git submodule update --init --recursive
+  - name: path_loader
+    type: git
+    repo: https://github.com/ctu-mrs/path_loader.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/path_loader
+    scripts:
+      - git submodule update --init --recursive
+  - name: bluefox2
+    type: git
+    repo: https://github.com/ctu-mrs/bluefox2.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/bluefox2
+    scripts:
+      - git submodule update --init --recursive
+  - name: mrs_utils
+    type: git
+    repo: https://github.com/ctu-mrs/mrs_utils.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/mrs_utils
+    scripts:
+      - git submodule update --init --recursive
+  - name: mrs_serial
+    type: git
+    repo: https://github.com/ctu-mrs/mrs_serial.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/mrs_serial
+    scripts:
+      - git submodule update --init --recursive
+  - name: mrs_gazebo_extras_resources
+    type: git
+    repo: https://github.com/ctu-mrs/mrs_gazebo_extras_resources.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/mrs_gazebo_extras_resources
+    scripts:
+      - git submodule update --init --recursive
+  - name: ouster
+    type: git
+    repo: https://github.com/ctu-mrs/ouster.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/ouster
+    scripts:
+      - git submodule update --init --recursive
+  - name: camera_base
+    type: git
+    repo: https://github.com/ctu-mrs/camera_base.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/camera_base
+    scripts:
+      - git submodule update --init --recursive
+  - name: rplidar_ros
+    type: git
+    repo: https://github.com/ctu-mrs/rplidar_ros.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/rplidar_ros
+    scripts:
+      - git submodule update --init --recursive
