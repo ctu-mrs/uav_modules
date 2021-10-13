@@ -60,6 +60,9 @@ bash $MY_PATH/../ros_packages/mrs_optic_flow/install/install_intel.sh $subinstal
 ## | --------------------- install bluefox -------------------- |
 bash $MY_PATH/../ros_packages/bluefox2/install/install.sh $subinstall_params
 
+## | --------------------- install ouster --------------------- |
+bash $MY_PATH/../ros_packages/ouster/install/install.sh $subinstall_params
+
 ## | ----- Generate ssh config and /etc/hosts ----------------- |
 
 default=y
