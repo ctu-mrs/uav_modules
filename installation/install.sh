@@ -74,7 +74,12 @@ while true; do
 
   if [[ $response =~ ^(y|Y)=$ ]]
   then
-    ~/mrs_workspace/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh
+    GENERATE_SSH_FILE="~/mrs_workspace/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh"
+    if [ -f $GENERATE_SSH_FILE ]; then
+      ./$GENERATE_SSH_FILE
+    else
+      echo "Could not run '$GENERATE_SSH_FILE' !"
+    fi
     break
   elif [[ $response =~ ^(n|N)=$ ]]
   then
