@@ -63,6 +63,9 @@ bash $MY_PATH/../ros_packages/bluefox2/install/install.sh $subinstall_params
 ## | --------------------- install ouster --------------------- |
 bash $MY_PATH/../ros_packages/ouster/install/install.sh $subinstall_params
 
+## | ---------------------- mrs pcl tools --------------------- |
+bash $MY_PATH/../ros_packages/mrs_pcl_tools/install/install.sh $subinstall_params
+
 ## | ----- Generate ssh config and /etc/hosts ----------------- |
 
 default=y
