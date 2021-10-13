@@ -23,7 +23,7 @@ cd $MY_PATH
 gitman install
 
 echo "running the uav_modules install.sh"
-./installation/install.sh
+./installation/install.sh --unattended
 
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
