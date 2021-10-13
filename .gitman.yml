@@ -10,6 +10,26 @@ sources:
       - target: ros_packages/nimbro_network
     scripts:
       - git submodule update --init --recursive
+  - name: usb_cam
+    type: git
+    repo: https://github.com/ctu-mrs/usb_cam.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/usb_cam
+    scripts:
+      - git submodule update --init --recursive
+  - name: mrs_pcl_tools
+    type: git
+    repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/mrs_pcl_tools
+    scripts:
+      - git submodule update --init --recursive
   - name: mrs_optic_flow
     type: git
     repo: https://github.com/ctu-mrs/mrs_optic_flow.git
