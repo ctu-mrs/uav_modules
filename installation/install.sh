@@ -11,7 +11,7 @@ MY_PATH=`( cd "$MY_PATH" && pwd )`
 
 subinstall_params=""
 
-default=n
+default=y
 while true; do
   [[ -t 0 ]] && { read -t 10 -n 2 -p $'\e[1;32mDo you want to run unattended mode created for UAV drone system installation? [y/n] (default: '"$default"$')\e[0m\n' resp || resp=$default ; }
   response=`echo $resp | sed -r 's/(.*)$/\1=/'`
@@ -59,7 +59,7 @@ while true; do
 
   if [[ $response =~ ^(y|Y)=$ ]]
   then
-    ~/mrs_workspaces/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh
+    ~/mrs_workspace/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh
     break
   elif [[ $response =~ ^(n|N)=$ ]]
   then
