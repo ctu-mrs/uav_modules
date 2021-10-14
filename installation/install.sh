@@ -14,7 +14,7 @@ subinstall_params=""
 for param in "$@"
 do
   echo $param
-  if [ $param="--unattended" ]; then
+  if [[ $param == "--unattended" ]]; then
     echo "installing in unattended mode"
     unattended=1
     subinstall_params="--unattended"
