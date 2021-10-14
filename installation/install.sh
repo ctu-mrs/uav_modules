@@ -48,9 +48,6 @@ done
 cd "$MY_PATH"
 gitman install
 
-## | -------------------- install realsense ------------------- |
-# bash $MY_PATH/../ros_packages/realsense_d435/scripts/install_realsense_d435.sh $subinstall_params
-
 ## | --------------------- install nimbro --------------------- |
 bash $MY_PATH/../ros_packages/nimbro_network/install/install.sh $subinstall_params
 
