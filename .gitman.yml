@@ -140,3 +140,13 @@ sources:
       - target: ros_packages/rplidar_ros
     scripts:
       - git submodule update --init --recursive
+  - name: realsense
+    type: git
+    repo: https://github.com/ctu-mrs/realsense.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/realsense
+    scripts:
+      - git submodule update --init --recursive

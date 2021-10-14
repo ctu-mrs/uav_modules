@@ -66,6 +66,9 @@ bash $MY_PATH/../ros_packages/ouster/install/install.sh $subinstall_params
 ## | ---------------------- mrs pcl tools --------------------- |
 bash $MY_PATH/../ros_packages/mrs_pcl_tools/install/install.sh $subinstall_params
 
+## | ------------------------ realsense ----------------------- |
+bash $MY_PATH/../ros_packages/realsense/scripts/install_realsense_d435.sh $subinstall_params
+
 ## | ----- Generate ssh config and /etc/hosts ----------------- |
 
 default=y
@@ -80,9 +83,9 @@ while true; do
 
   if [[ $response =~ ^(y|Y)=$ ]]
   then
-    GENERATE_SSH_FILE="~/mrs_workspace/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh"
+    GENERATE_SSH_FILE="$HOME/mrs_workspace/src/uav_core/miscellaneous/dotssh/generate_ssh_config.sh"
     if [ -f $GENERATE_SSH_FILE ]; then
-      ./$GENERATE_SSH_FILE
+      bash -c "$GENERATE_SSH_FILE"
     else
       echo "Could not run '$GENERATE_SSH_FILE' !"
     fi
