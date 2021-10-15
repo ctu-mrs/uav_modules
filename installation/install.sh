@@ -66,6 +66,9 @@ bash $MY_PATH/../ros_packages/mrs_pcl_tools/install/install.sh $subinstall_param
 ## | ------------------------ realsense ----------------------- |
 bash $MY_PATH/../ros_packages/realsense/scripts/install_realsense_d435.sh $subinstall_params
 
+## | -------------------------- aloam ------------------------- |
+bash $MY_PATH/../ros_packages/aloam/install/install.sh $subinstall_params
+
 ## | ----- Generate ssh config and /etc/hosts ----------------- |
 
 default=y

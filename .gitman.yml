@@ -10,6 +10,16 @@ sources:
       - target: ros_packages/nimbro_network
     scripts:
       - git submodule update --init --recursive
+  - name: aloam
+    type: git
+    repo: https://github.com/ctu-mrs/aloam.git
+    sparse_paths:
+      -
+    rev: master
+    links:
+      - target: ros_packages/aloam
+    scripts:
+      - git submodule update --init --recursive
   - name: usb_cam
     type: git
     repo: https://github.com/ctu-mrs/usb_cam.git
