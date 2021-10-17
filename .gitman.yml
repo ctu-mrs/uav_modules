@@ -1,162 +1,358 @@
 location: .gitman
 sources:
-  - name: nimbro_network
+  - repo: https://github.com/ctu-mrs/nimbro_network.git
+    name: nimbro_network
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/nimbro_network.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/nimbro_network
+      - source: ''
+        target: ros_packages/nimbro_network
     scripts:
       - git submodule update --init --recursive
-  - name: aloam
+  - repo: https://github.com/ctu-mrs/aloam.git
+    name: aloam
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/aloam.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/aloam
+      - source: ''
+        target: ros_packages/aloam
     scripts:
       - git submodule update --init --recursive
-  - name: usb_cam
+  - repo: https://github.com/ctu-mrs/usb_cam.git
+    name: usb_cam
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/usb_cam.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/usb_cam
+      - source: ''
+        target: ros_packages/usb_cam
     scripts:
       - git submodule update --init --recursive
-  - name: mrs_pcl_tools
+  - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
+    name: mrs_pcl_tools
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/mrs_pcl_tools
+      - source: ''
+        target: ros_packages/mrs_pcl_tools
     scripts:
       - git submodule update --init --recursive
-  - name: mrs_optic_flow
+  - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
+    name: mrs_optic_flow
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/mrs_optic_flow
+      - source: ''
+        target: ros_packages/mrs_optic_flow
     scripts:
       - git submodule update --init --recursive
-  - name: hector_slam
+  - repo: https://github.com/ctu-mrs/hector_slam.git
+    name: hector_slam
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/hector_slam.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/hector_slam
+      - source: ''
+        target: ros_packages/hector_slam
     scripts:
       - git submodule update --init --recursive
-  - name: trajectory_loader
+  - repo: https://github.com/ctu-mrs/trajectory_loader.git
+    name: trajectory_loader
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/trajectory_loader.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/trajectory_loader
+      - source: ''
+        target: ros_packages/trajectory_loader
     scripts:
       - git submodule update --init --recursive
-  - name: path_loader
+  - repo: https://github.com/ctu-mrs/path_loader.git
+    name: path_loader
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/path_loader.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/path_loader
+      - source: ''
+        target: ros_packages/path_loader
     scripts:
       - git submodule update --init --recursive
-  - name: bluefox2
+  - repo: https://github.com/ctu-mrs/bluefox2.git
+    name: bluefox2
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/bluefox2.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/bluefox2
+      - source: ''
+        target: ros_packages/bluefox2
     scripts:
       - git submodule update --init --recursive
-  - name: mrs_utils
+  - repo: https://github.com/ctu-mrs/mrs_utils.git
+    name: mrs_utils
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/mrs_utils.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/mrs_utils
+      - source: ''
+        target: ros_packages/mrs_utils
     scripts:
       - git submodule update --init --recursive
-  - name: mrs_serial
+  - repo: https://github.com/ctu-mrs/mrs_serial.git
+    name: mrs_serial
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/mrs_serial.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/mrs_serial
+      - source: ''
+        target: ros_packages/mrs_serial
     scripts:
       - git submodule update --init --recursive
-  - name: mrs_gazebo_extras_resources
+  - repo: https://github.com/ctu-mrs/mrs_gazebo_extras_resources.git
+    name: mrs_gazebo_extras_resources
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/mrs_gazebo_extras_resources.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/mrs_gazebo_extras_resources
+      - source: ''
+        target: ros_packages/mrs_gazebo_extras_resources
     scripts:
       - git submodule update --init --recursive
-  - name: ouster
+  - repo: https://github.com/ctu-mrs/ouster.git
+    name: ouster
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/ouster.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/ouster
+      - source: ''
+        target: ros_packages/ouster
     scripts:
       - git submodule update --init --recursive
-  - name: camera_base
+  - repo: https://github.com/ctu-mrs/camera_base.git
+    name: camera_base
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/camera_base.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/camera_base
+      - source: ''
+        target: ros_packages/camera_base
     scripts:
       - git submodule update --init --recursive
-  - name: rplidar_ros
+  - repo: https://github.com/ctu-mrs/rplidar_ros.git
+    name: rplidar_ros
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/rplidar_ros.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/rplidar_ros
+      - source: ''
+        target: ros_packages/rplidar_ros
     scripts:
       - git submodule update --init --recursive
-  - name: realsense
+  - repo: https://github.com/ctu-mrs/realsense.git
+    name: realsense
+    rev: master
     type: git
-    repo: https://github.com/ctu-mrs/realsense.git
     sparse_paths:
       -
-    rev: master
     links:
-      - target: ros_packages/realsense
+      - source: ''
+        target: ros_packages/realsense
     scripts:
       - git submodule update --init --recursive
+sources_locked:
+  - repo: https://github.com/ctu-mrs/nimbro_network.git
+    name: nimbro_network
+    rev: 4f8a7bbaf65e6bf2d927e04635be86397d28e295
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/nimbro_network
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/aloam.git
+    name: aloam
+    rev: df8b2bb808411f295c18d076ec1a74478488a472
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/aloam
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/usb_cam.git
+    name: usb_cam
+    rev: ed55956bdd3d0ff0b0dfd0f854607f522acc4c26
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/usb_cam
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
+    name: mrs_pcl_tools
+    rev: d8500dca2dd29b8a9ca69948f086051c169273fe
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_pcl_tools
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
+    name: mrs_optic_flow
+    rev: e0d074c26dba10fe773ddad9c2ee006143798653
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_optic_flow
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/hector_slam.git
+    name: hector_slam
+    rev: bf0d1d4904d5145868a93a588f619ff5e8364fdc
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/hector_slam
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/trajectory_loader.git
+    name: trajectory_loader
+    rev: c45c2d890dd4612a8c7602ab39db75835c9cf76a
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/trajectory_loader
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/path_loader.git
+    name: path_loader
+    rev: 62af5de813dd0f76039b23e7edcf09ff3cb92d28
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/path_loader
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/bluefox2.git
+    name: bluefox2
+    rev: b66ebe2fafbeb92ff3d055300d0f66eb1f5de11a
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/bluefox2
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_utils.git
+    name: mrs_utils
+    rev: 0912914cc3b4c3c3a2c89fbb355673b8d61ed1cf
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_utils
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_serial.git
+    name: mrs_serial
+    rev: 576ecb9f9a561cb680752168d6b939017086c813
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_serial
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/mrs_gazebo_extras_resources.git
+    name: mrs_gazebo_extras_resources
+    rev: e1b1da206f897ff2e36620ffa1d9e9608152cd1f
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/mrs_gazebo_extras_resources
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/ouster.git
+    name: ouster
+    rev: d0432b77c8c74732983a77b853ac8ed01e7693d0
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/ouster
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/camera_base.git
+    name: camera_base
+    rev: 0721fe853451cdee47a63b59a328e216ae33c6c7
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/camera_base
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/rplidar_ros.git
+    name: rplidar_ros
+    rev: 628adaa6e6d62084bb4adc06ce62ceefbb9c5158
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/rplidar_ros
+    scripts:
+      - git submodule update --init --recursive
+  - repo: https://github.com/ctu-mrs/realsense.git
+    name: realsense
+    rev: 6a75b8ef6dbeca392f8889f809b288395f8e2808
+    type: git
+    sparse_paths:
+      -
+    links:
+      - source: ''
+        target: ros_packages/realsense
+    scripts:
+      - git submodule update --init --recursive
+default_group: ''
+groups:
+  -
