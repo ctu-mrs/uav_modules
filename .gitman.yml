@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/bluefox2.git
     name: bluefox2
-    rev: b66ebe2fafbeb92ff3d055300d0f66eb1f5de11a
+    rev: ed4b2fa9ce92de5b0959a12b92b768308aa832b2
     type: git
     sparse_paths:
       -
