@@ -20,7 +20,7 @@ Before compiling, call the main installation script:
 
 * [aloam](./ros_packages/aloam) - A-LOAM SLAM (3D LiDAR SLAM)
 * [bluefox2](./ros_packages/bluefox2) - Bluefox2 camera driver
-* [camera_base](./ros_packages/camera_base) + [camera_base](./ros_packages/usb_cam) - V4L camera driver
+* [camera_base](./ros_packages/camera_base) + [usb_cam](./ros_packages/usb_cam) - V4L camera driver
 * [hector_slam](./ros_packages/hector_slam) - Hector SLAM (2D LiDAR SLAM)
 * [mrs_gazebo_extra_resources](./ros_packages/mrs_gazebo_extra_resources) - Additional simulation resources
 * [mrs_optic_flow](./ros_packages/mrs_optic_flow) - OpticFlow for UAVs
