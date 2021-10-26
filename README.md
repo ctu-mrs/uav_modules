@@ -47,7 +47,7 @@ catkin build
 
 * [aloam](https://github.com/ctu-mrs/aloam) - A-LOAM SLAM (3D LiDAR SLAM)
 * [bluefox2](https://github.com/ctu-mrs/bluefox2) - Bluefox2 camera driver
-* [camera_base](https://github.com/ctu-mrs/camera_base) + [camera_base](https://github.com/ctu-mrs/usb_cam) - V4L camera driver
+* [camera_base](https://github.com/ctu-mrs/camera_base) + [usb_cam](https://github.com/ctu-mrs/usb_cam) - V4L camera driver
 * [hector_slam](https://github.com/ctu-mrs/hector_slam) - Hector SLAM (2D LiDAR SLAM)
 * [mrs_gazebo_extra_resources](https://github.com/ctu-mrs/mrs_gazebo_extra_resources) - Additional simulation resources
 * [mrs_optic_flow](https://github.com/ctu-mrs/mrs_optic_flow) - OpticFlow for UAVs
