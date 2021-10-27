@@ -228,7 +228,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 62f489884854d2ed9f35c7e771e07c29b0003d68
+    rev: e4b4edde3a19b4f81870936d1fa4883327fc291b
     type: git
     sparse_paths:
       -
