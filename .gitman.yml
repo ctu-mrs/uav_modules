@@ -6,7 +6,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/nimbro_network
@@ -18,7 +17,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/aloam
@@ -30,7 +28,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/usb_cam
@@ -42,7 +39,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/mrs_pcl_tools
@@ -54,7 +50,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/mrs_optic_flow
@@ -66,7 +61,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/hector_slam
@@ -78,7 +72,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/trajectory_loader
@@ -90,7 +83,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/path_loader
@@ -102,7 +94,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/bluefox2
@@ -114,7 +105,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/mrs_utils
@@ -126,7 +116,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/mrs_serial
@@ -138,7 +127,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/mrs_gazebo_extras_resources
@@ -150,7 +138,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/ouster
@@ -162,7 +149,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/camera_base
@@ -174,7 +160,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/rplidar_ros
@@ -186,7 +171,6 @@ sources:
     type: git
     sparse_paths:
       -
-    link:
     links:
       - source: ''
         target: ros_packages/realsense
@@ -199,7 +183,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -210,7 +193,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -221,7 +203,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -232,7 +213,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -243,7 +223,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -254,7 +233,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -265,7 +243,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -276,7 +253,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -287,7 +263,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -298,7 +273,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -309,7 +283,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -320,7 +293,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -331,7 +303,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -342,7 +313,6 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
@@ -353,18 +323,16 @@ sources_locked:
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: 6a75b8ef6dbeca392f8889f809b288395f8e2808
+    rev: ff6cf6e3d3ad666b29ee20628c9f7cd417423411
     type: git
     sparse_paths:
       -
-    link:
     links:
       -
     scripts:
