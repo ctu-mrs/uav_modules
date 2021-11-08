@@ -219,7 +219,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     name: mrs_optic_flow
-    rev: e0d074c26dba10fe773ddad9c2ee006143798653
+    rev: 6ed39dea061f4f0819055434e2bdd6c44d6627c2
     type: git
     sparse_paths:
       -
