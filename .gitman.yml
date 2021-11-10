@@ -6,6 +6,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/nimbro_network
@@ -17,6 +18,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/aloam
@@ -28,6 +30,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/usb_cam
@@ -39,6 +42,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/mrs_pcl_tools
@@ -50,6 +54,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/mrs_optic_flow
@@ -61,6 +66,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/hector_slam
@@ -72,6 +78,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/trajectory_loader
@@ -83,6 +90,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/path_loader
@@ -94,6 +102,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/bluefox2
@@ -105,6 +114,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/mrs_utils
@@ -116,6 +126,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/mrs_serial
@@ -127,6 +138,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/mrs_gazebo_extras_resources
@@ -138,6 +150,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/ouster
@@ -149,6 +162,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/camera_base
@@ -160,6 +174,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/rplidar_ros
@@ -171,6 +186,7 @@ sources:
     type: git
     sparse_paths:
       -
+    link:
     links:
       - source: ''
         target: ros_packages/realsense
@@ -183,16 +199,18 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 2bf7c2c3ef46ba42b68aa3a5da9b0aef0dbde7a1
+    rev: d3e8feef2f01d08f5665ff2e2bbadb066cdbc881
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -203,26 +221,29 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: e4b4edde3a19b4f81870936d1fa4883327fc291b
+    rev: 8b3344298c0b2719f494969852dabc2ff07bed79
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     name: mrs_optic_flow
-    rev: 6ed39dea061f4f0819055434e2bdd6c44d6627c2
+    rev: 14a95868367bb9300f4e3e2364d6756887d97b78
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -233,6 +254,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -243,6 +265,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -253,6 +276,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -263,6 +287,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -273,16 +298,18 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 71c952b1978ab6006ada9216b360d8bede99d166
+    rev: f4d7c9036e18b0e9b5637ab702d378050518b9b4
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -293,6 +320,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -303,6 +331,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -313,6 +342,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -323,6 +353,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
@@ -333,6 +364,7 @@ sources_locked:
     type: git
     sparse_paths:
       -
+    link:
     links:
       -
     scripts:
