@@ -344,7 +344,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: ff6cf6e3d3ad666b29ee20628c9f7cd417423411
+    rev: 2102eb43384c1d6150cd289ca721d271f370467f
     type: git
     sparse_paths:
       -
