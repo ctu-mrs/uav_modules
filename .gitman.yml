@@ -201,7 +201,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/usb_cam.git
     name: usb_cam
-    rev: ed55956bdd3d0ff0b0dfd0f854607f522acc4c26
+    rev: 7eadf59db84ea0b2f90297a46358d804d372da9e
     type: git
     sparse_paths:
       -
@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 8b3344298c0b2719f494969852dabc2ff07bed79
+    rev: d20131e7e3eaf34b960d63d7b0645386c74a0930
     type: git
     sparse_paths:
       -
@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/bluefox2.git
     name: bluefox2
-    rev: ed4b2fa9ce92de5b0959a12b92b768308aa832b2
+    rev: faffd6f3bd4c3b7506646591049e8a30e4b66773
     type: git
     sparse_paths:
       -
@@ -344,7 +344,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: ff6cf6e3d3ad666b29ee20628c9f7cd417423411
+    rev: ecdff8bfe6be8330e40b33a7d6d4b800f00a330c
     type: git
     sparse_paths:
       -
