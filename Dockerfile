@@ -1,4 +1,4 @@
-FROM ctumrs:mrs_uav_system:latest
+FROM ctumrs/mrs_uav_system:latest
 
 WORKDIR /home
 ENV HOME=/home
