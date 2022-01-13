@@ -9,4 +9,4 @@ docker build . --file docker/with_linux_setup --tag ctumrs/mrs_uav_system_ls_mod
 
 docker login --username klaxalk --password $TOKEN
 
-docker push ctumrs/mrs_uav_system_modules:latest
+docker push ctumrs/mrs_uav_system_ls_modules:latest
