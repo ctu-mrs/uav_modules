@@ -190,7 +190,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 9ee8cf7d2a40684dd5139367e14608e84a289630
+    rev: 0a72cdd792ac067811a31abcebb04b45a8453f75
     type: git
     sparse_paths:
       -
@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 5d39beab0a4dd322c7168e8e3a2836936e5c7b02
+    rev: b9d81e5cce3d07b94c5f1c106dfd3b7a7f53d7bc
     type: git
     sparse_paths:
       -
