@@ -7,8 +7,8 @@ RUN mkdir -p /opt/mrs/git && cd /opt/mrs/git && git clone https://github.com/ctu
 
 RUN ln -s /opt/mrs/git/uav_modules /opt/mrs/mrs_workspace/src
 
-RUN cd /opt/mrs/mrs_workspace/src/uav_modules && gitman install && ./installation/install.sh --unattended
+RUN cd /opt/mrs/mrs_workspace/src/uav_modules && gitman install && ./installation/install.sh --unattended && rm -rf /var/lib/apt/lists/*
 
-RUN cd /opt/mrs/mrs_workspace && catkin build
+RUN cd /opt/mrs/mrs_workspace && catkin build && rm -rf build
 
 CMD ["bash"]
