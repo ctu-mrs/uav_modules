@@ -14,7 +14,7 @@ We expect that the **uav_core** is up-to-date (master) and compiled withing the 
 ## Installation
 
 We recommend compiling the **uav_modules** in a separated workspace from the uav_core.
-More information in the [catkin workspace guide (TODO)](https://ctu-mrs.github.io/docs/software/catkin_workspace_guide.html).
+More information in the [catkin workspace guide](https://ctu-mrs.github.io/docs/software/catkin/managing_workspaces/managing_workspaces.html).
 
 1. Clone the **uav_modules**:
 ```bash
