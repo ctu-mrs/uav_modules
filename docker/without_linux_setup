@@ -3,12 +3,12 @@ FROM ctumrs/mrs_uav_system:latest
 WORKDIR /home
 ENV HOME=/home
 
-RUN mkdir -p /opt/mrs/git && cd /opt/mrs/git && git clone https://github.com/ctu-mrs/uav_modules && chmod -R 777 /opt/mrs/
+RUN mkdir -p /opt/mrs/git && cd /opt/mrs/git && git clone https://github.com/ctu-mrs/uav_modules && chmod -R +666 /opt/mrs/
 
 RUN ln -s /opt/mrs/git/uav_modules /opt/mrs/mrs_workspace/src
 
-RUN cd /opt/mrs/mrs_workspace/src/uav_modules && gitman install && ./installation/install.sh --unattended && rm -rf /var/lib/apt/lists/* && chmod -R 777 /opt/mrs/
+RUN cd /opt/mrs/mrs_workspace/src/uav_modules && gitman install && ./installation/install.sh --unattended && rm -rf /var/lib/apt/lists/* && chmod -R +666 /opt/mrs/
 
-RUN cd /opt/mrs/mrs_workspace && catkin build && rm -rf build && chmod -R 777 /opt/mrs/
+RUN cd /opt/mrs/mrs_workspace && catkin build && rm -rf build && chmod -R +666 /opt/mrs/
 
 CMD ["bash"]
