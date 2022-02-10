@@ -234,7 +234,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/hector_slam.git
     name: hector_slam
-    rev: bf0d1d4904d5145868a93a588f619ff5e8364fdc
+    rev: d9088d43cd4cff21574e1a9c48dd1d0fb15fe186
     type: git
     sparse_paths:
       -
