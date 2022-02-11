@@ -57,7 +57,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/hector_slam.git
     name: hector_slam
-    rev: master
+    rev: nodelet
     type: git
     sparse_paths:
       -
