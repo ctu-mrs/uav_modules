@@ -179,7 +179,7 @@ sources:
 sources_locked:
   - repo: https://github.com/ctu-mrs/nimbro_network.git
     name: nimbro_network
-    rev: 4f8a7bbaf65e6bf2d927e04635be86397d28e295
+    rev: 86cb0e30f451b00efc6a69259cfa767848122e10
     type: git
     sparse_paths:
       -
@@ -190,7 +190,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 0a72cdd792ac067811a31abcebb04b45a8453f75
+    rev: f99cb0e709fa7565ceb46f29fd4d1ddcfd3d5d73
     type: git
     sparse_paths:
       -
@@ -201,7 +201,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/usb_cam.git
     name: usb_cam
-    rev: a7ac854796fe05819ec7f463c5fc6ffaae0be00d
+    rev: 2aad4784637300c47de4648467730276024f406e
     type: git
     sparse_paths:
       -
@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: ba3a8a942048c77f423db33274c711a0a9addbca
+    rev: 6c27d9e55d50462e7cdade337b3e2225435ecfbb
     type: git
     sparse_paths:
       -
@@ -223,7 +223,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     name: mrs_optic_flow
-    rev: 14a95868367bb9300f4e3e2364d6756887d97b78
+    rev: dd6e9545257512a260f2aa40fcc02b757a66e21e
     type: git
     sparse_paths:
       -
@@ -245,7 +245,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/trajectory_loader.git
     name: trajectory_loader
-    rev: c45c2d890dd4612a8c7602ab39db75835c9cf76a
+    rev: a480e7a181df10e84706b18cd636c4c6607c1134
     type: git
     sparse_paths:
       -
@@ -256,7 +256,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/path_loader.git
     name: path_loader
-    rev: 62af5de813dd0f76039b23e7edcf09ff3cb92d28
+    rev: ba4c0849e4201d353e8bd1de55915005b6329987
     type: git
     sparse_paths:
       -
@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/bluefox2.git
     name: bluefox2
-    rev: faffd6f3bd4c3b7506646591049e8a30e4b66773
+    rev: b6978b1ab474d99b7dc310d46e4e4b53f00d406c
     type: git
     sparse_paths:
       -
@@ -278,7 +278,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 0912914cc3b4c3c3a2c89fbb355673b8d61ed1cf
+    rev: 86aac144e7a7469d923dac3a7246f749f1f92ce9
     type: git
     sparse_paths:
       -
@@ -289,7 +289,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: f4d7c9036e18b0e9b5637ab702d378050518b9b4
+    rev: 463c40b91748d66ebf465f2bd4303e198089f3ce
     type: git
     sparse_paths:
       -
@@ -300,7 +300,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_gazebo_extras_resources.git
     name: mrs_gazebo_extras_resources
-    rev: e1b1da206f897ff2e36620ffa1d9e9608152cd1f
+    rev: 22bf7c10fae81078f034bbd9ef0549b2e0b7de69
     type: git
     sparse_paths:
       -
@@ -311,7 +311,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 0364397d33a099104904e142fae397bdd988f597
+    rev: 76a18fa5852f4680fc07a61445a03a39bd8c603f
     type: git
     sparse_paths:
       -
@@ -322,7 +322,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/camera_base.git
     name: camera_base
-    rev: 0721fe853451cdee47a63b59a328e216ae33c6c7
+    rev: 444ca6fa8b4f00241af9983a96be7e36dee2c039
     type: git
     sparse_paths:
       -
@@ -333,7 +333,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/rplidar_ros.git
     name: rplidar_ros
-    rev: 628adaa6e6d62084bb4adc06ce62ceefbb9c5158
+    rev: 4d8cd3ffd61f7e7cce017a0076703bc42cf32efc
     type: git
     sparse_paths:
       -
@@ -344,7 +344,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: ecdff8bfe6be8330e40b33a7d6d4b800f00a330c
+    rev: 41e02d3d2fa19a5b67c429567925e788a024c3c9
     type: git
     sparse_paths:
       -
