@@ -333,7 +333,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/rplidar_ros.git
     name: rplidar_ros
-    rev: 4d8cd3ffd61f7e7cce017a0076703bc42cf32efc
+    rev: fc95d54a3588efa5ffb60fc6c2d403899f91bcb1
     type: git
     sparse_paths:
       -
