@@ -311,7 +311,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 2b6f21d2a7cffa3f0b0157015524a4adbcb37593
+    rev: 49fd355643abaf1ea25996095a9fb368bb74e2b8
     type: git
     sparse_paths:
       -
