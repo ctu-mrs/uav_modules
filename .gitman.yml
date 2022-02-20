@@ -223,7 +223,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     name: mrs_optic_flow
-    rev: dd6e9545257512a260f2aa40fcc02b757a66e21e
+    rev: 6999cb668938ad063d9ceba33fa3d735cff3e48f
     type: git
     sparse_paths:
       -
@@ -234,7 +234,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/hector_slam.git
     name: hector_slam
-    rev: d9088d43cd4cff21574e1a9c48dd1d0fb15fe186
+    rev: f8e3b1f9adee77df4cbbea26796ddacac7dd7b9b
     type: git
     sparse_paths:
       -
