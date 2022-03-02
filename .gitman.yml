@@ -201,7 +201,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/usb_cam.git
     name: usb_cam
-    rev: 2aad4784637300c47de4648467730276024f406e
+    rev: 8f3d1c2d845c34a6de0058c53caa6f20973f82ed
     type: git
     sparse_paths:
       -
