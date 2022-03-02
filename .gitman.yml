@@ -289,7 +289,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 8af37bd85674398bd0f2b22b48fcd2330311876d
+    rev: c0030b3f04bdd885c552d5805a1bfaaa3296bb25
     type: git
     sparse_paths:
       -
