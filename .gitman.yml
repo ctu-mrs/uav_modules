@@ -201,7 +201,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/usb_cam.git
     name: usb_cam
-    rev: 8f3d1c2d845c34a6de0058c53caa6f20973f82ed
+    rev: 52f4d9e1b06d589aea68811d923867616d14e036
     type: git
     sparse_paths:
       -
@@ -344,7 +344,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: 41e02d3d2fa19a5b67c429567925e788a024c3c9
+    rev: 30152144b618624b02bd53b04e6fdf71908b9dff
     type: git
     sparse_paths:
       -
