@@ -190,7 +190,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 2fa72c2d652a2931977fcd0175f8bfcfd1ac119c
+    rev: 0af27ae3c1b6260f9d18d6cb00e367b75227cd10
     type: git
     sparse_paths:
       -
