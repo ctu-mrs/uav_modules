@@ -13,7 +13,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: master
+    rev: transformer
     type: git
     sparse_paths:
       -
@@ -35,7 +35,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: master
+    rev: transformer
     type: git
     sparse_paths:
       -
@@ -101,7 +101,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: master
+    rev: transformer
     type: git
     sparse_paths:
       -
@@ -112,7 +112,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: master
+    rev: transformer
     type: git
     sparse_paths:
       -
@@ -190,7 +190,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 2e68f93805a57be961963e1a463d805b8bfb0fbf
+    rev: 2fa72c2d652a2931977fcd0175f8bfcfd1ac119c
     type: git
     sparse_paths:
       -
@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 7d05169e97b00b787cb9f3f9aa9a08b3ec8b27f7
+    rev: 32b4cfdcb585c06327995b1c58735928bd35dcbd
     type: git
     sparse_paths:
       -
@@ -278,7 +278,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 9e12345a0eec2effa15e01c0eeb41aa4a38bad7c
+    rev: 6e3dfe4b0e43b29d2b9c2b309abb26582359bd09
     type: git
     sparse_paths:
       -
@@ -289,7 +289,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 9c754689b13cf64cdfff6ec465fd29135aff2b62
+    rev: b3b1cf8d392b32c6fe05dd9c6609738e4cfe4294
     type: git
     sparse_paths:
       -
