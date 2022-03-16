@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 0cdf841baf9a07d5efd3a52e138995627d736e5e
+    rev: 3494c9b7e460d7b76650e1cc35ff671810fcc8be
     type: git
     sparse_paths:
       -
@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/bluefox2.git
     name: bluefox2
-    rev: b6978b1ab474d99b7dc310d46e4e4b53f00d406c
+    rev: cbbf6ab6d2633e618b9969576f759c6b826a4e37
     type: git
     sparse_paths:
       -
