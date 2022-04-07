@@ -190,7 +190,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: f99cb0e709fa7565ceb46f29fd4d1ddcfd3d5d73
+    rev: f02754b7b85401536d92ea3ec637eee01bce7bf4
     type: git
     sparse_paths:
       -
@@ -212,7 +212,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 6c27d9e55d50462e7cdade337b3e2225435ecfbb
+    rev: f53e538be5e2bbb8d4f1fdda5b992a7d9916d140
     type: git
     sparse_paths:
       -
@@ -245,7 +245,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/trajectory_loader.git
     name: trajectory_loader
-    rev: a480e7a181df10e84706b18cd636c4c6607c1134
+    rev: 719b1600f56e2d2d8cf0290c5ec03a0f56d6bd7c
     type: git
     sparse_paths:
       -
@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/bluefox2.git
     name: bluefox2
-    rev: b6978b1ab474d99b7dc310d46e4e4b53f00d406c
+    rev: cbbf6ab6d2633e618b9969576f759c6b826a4e37
     type: git
     sparse_paths:
       -
@@ -278,7 +278,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 9e12345a0eec2effa15e01c0eeb41aa4a38bad7c
+    rev: ed5bce5f458e0ee564ac41be01350820d65d964a
     type: git
     sparse_paths:
       -
@@ -289,7 +289,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 9c754689b13cf64cdfff6ec465fd29135aff2b62
+    rev: 60d3c3d1afff4c94c4304f4433a9bca1e58dfc0b
     type: git
     sparse_paths:
       -

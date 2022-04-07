@@ -21,19 +21,19 @@ do
   fi
 done
 
-default=y
+default=n
 while true; do
   if [[ "$unattended" == "1" ]]
   then
     resp=$default
   else
-    [[ -t 0 ]] && { read -t 10 -n 2 -p $'\e[1;32mDo you want to run unattended mode created for UAV drone system installation? [y/n] (default: '"$default"$')\e[0m\n' resp || resp=$default ; }
+    [[ -t 0 ]] && { read -t 10 -n 2 -p $'\e[1;32mAre you installing this on a real drone? [y/n] (default: '"$default"$')\e[0m\n' resp || resp=$default ; }
   fi
   response=`echo $resp | sed -r 's/(.*)$/\1=/'`
 
   if [[ $response =~ ^(y|Y)=$ ]]
   then
-    echo "Installing in unattended mode"
+    echo "Installing on a real drone"
     unattended=1
     subinstall_params="--unattended"
     break
