@@ -2,7 +2,7 @@ location: .gitman
 sources:
   - repo: https://github.com/ctu-mrs/nimbro_network.git
     name: nimbro_network
-    rev: master
+    rev: develop
     type: git
     sparse_paths:
       -
