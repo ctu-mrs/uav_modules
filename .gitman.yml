@@ -179,7 +179,7 @@ sources:
 sources_locked:
   - repo: https://github.com/ctu-mrs/nimbro_network.git
     name: nimbro_network
-    rev: 86cb0e30f451b00efc6a69259cfa767848122e10
+    rev: 2a16d4cad293960f71ff6ce5ffd189133682eadc
     type: git
     sparse_paths:
       -
