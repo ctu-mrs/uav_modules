@@ -179,7 +179,7 @@ sources:
 sources_locked:
   - repo: https://github.com/ctu-mrs/nimbro_network.git
     name: nimbro_network
-    rev: d511d988f7b75dedbaf3595ea00b3ceb94a140ff
+    rev: 5068b6413372c309542a95ad522642d9406fa66f
     type: git
     sparse_paths:
       -
@@ -278,7 +278,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: ed5bce5f458e0ee564ac41be01350820d65d964a
+    rev: 44006a9af2f7a484ed32c13d3247c06d8ffdf8ad
     type: git
     sparse_paths:
       -
