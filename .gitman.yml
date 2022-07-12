@@ -4,6 +4,7 @@ sources:
     name: nimbro_network
     rev: develop
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -15,6 +16,7 @@ sources:
     name: aloam
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -26,6 +28,7 @@ sources:
     name: usb_cam
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -37,6 +40,7 @@ sources:
     name: mrs_pcl_tools
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -48,6 +52,7 @@ sources:
     name: mrs_optic_flow
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -59,6 +64,7 @@ sources:
     name: hector_slam
     rev: nodelet
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -70,6 +76,7 @@ sources:
     name: trajectory_loader
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -81,6 +88,7 @@ sources:
     name: path_loader
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -92,6 +100,7 @@ sources:
     name: bluefox2
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -103,6 +112,7 @@ sources:
     name: mrs_utils
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -114,6 +124,7 @@ sources:
     name: mrs_serial
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -125,6 +136,7 @@ sources:
     name: mrs_gazebo_extras_resources
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -136,6 +148,7 @@ sources:
     name: ouster
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -147,6 +160,7 @@ sources:
     name: camera_base
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -158,6 +172,7 @@ sources:
     name: rplidar_ros
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -169,6 +184,7 @@ sources:
     name: realsense
     rev: master
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -181,6 +197,7 @@ sources_locked:
     name: nimbro_network
     rev: 5068b6413372c309542a95ad522642d9406fa66f
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -190,8 +207,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: f02754b7b85401536d92ea3ec637eee01bce7bf4
+    rev: a33e6bb9847983c2fb2507afb533e29354d175c0
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -203,6 +221,7 @@ sources_locked:
     name: usb_cam
     rev: 52f4d9e1b06d589aea68811d923867616d14e036
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -212,8 +231,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: 8d78a051d7d177b683dadaf38b1cb3e134c08475
+    rev: 0c66e5bd145d9ff95c877f198ee15e663fc42283
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -225,6 +245,7 @@ sources_locked:
     name: mrs_optic_flow
     rev: 6999cb668938ad063d9ceba33fa3d735cff3e48f
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -236,6 +257,7 @@ sources_locked:
     name: hector_slam
     rev: 09e7b78cf604ce274ca563a871a3cc178f61f514
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -247,6 +269,7 @@ sources_locked:
     name: trajectory_loader
     rev: 719b1600f56e2d2d8cf0290c5ec03a0f56d6bd7c
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -258,6 +281,7 @@ sources_locked:
     name: path_loader
     rev: ba4c0849e4201d353e8bd1de55915005b6329987
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -269,6 +293,7 @@ sources_locked:
     name: bluefox2
     rev: 7480d0442723727801dab37674fcf7571b6fcd18
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -278,8 +303,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 44006a9af2f7a484ed32c13d3247c06d8ffdf8ad
+    rev: 10114f5d0733f9d2e6119b60c4a4c926f619ecb2
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -289,8 +315,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 6d52f166512211818bae76672688f2e7533a8a0e
+    rev: c8eb7fb3b29f36c878d7c65043639d12da2a80bf
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -302,6 +329,7 @@ sources_locked:
     name: mrs_gazebo_extras_resources
     rev: 22bf7c10fae81078f034bbd9ef0549b2e0b7de69
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -311,8 +339,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 7c47e7600b9cfc1ed942631ec5b2f82efd5fd2ce
+    rev: 7ac7c3a0e36ef19d21ef2622bdcb960357ade0f3
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -324,6 +353,7 @@ sources_locked:
     name: camera_base
     rev: 444ca6fa8b4f00241af9983a96be7e36dee2c039
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -335,6 +365,7 @@ sources_locked:
     name: rplidar_ros
     rev: 100473e9c1c6ed78fbf360af8eb7ab8f708d7883
     type: git
+    params:
     sparse_paths:
       -
     links:
@@ -344,8 +375,9 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/realsense.git
     name: realsense
-    rev: 30152144b618624b02bd53b04e6fdf71908b9dff
+    rev: ce0bee5986f437e3ffb555d7bf6b5487fc30a819
     type: git
+    params:
     sparse_paths:
       -
     links:
