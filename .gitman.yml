@@ -207,7 +207,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: a33e6bb9847983c2fb2507afb533e29354d175c0
+    rev: 2ee8502ef08091dfe3ad604154f3bf45b1433ea1
     type: git
     params:
     sparse_paths:
@@ -231,7 +231,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: fc34f928bf0424798ead8b7c930f82e6a4b2a0eb
+    rev: f24615a841c754a1fcb567bbe0b2c9cfd5c85677
     type: git
     params:
     sparse_paths:
@@ -303,7 +303,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 63c951385d70c89f9c1af9ebbb0ec32b9f49a59c
+    rev: 12acaad2164f48c73763bbaa9322579171755853
     type: git
     params:
     sparse_paths:
@@ -339,7 +339,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 7ac7c3a0e36ef19d21ef2622bdcb960357ade0f3
+    rev: 653d25eff7a2478d0eb390d24e1e2e9ad32c3d9b
     type: git
     params:
     sparse_paths:
