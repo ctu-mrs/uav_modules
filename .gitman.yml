@@ -207,7 +207,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 2ee8502ef08091dfe3ad604154f3bf45b1433ea1
+    rev: 1d7fae0c091afe94e28c2b834018098085576776
     type: git
     params:
     sparse_paths:
@@ -231,7 +231,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: f24615a841c754a1fcb567bbe0b2c9cfd5c85677
+    rev: b47081a536eecc58e680920861e29925fc5c2f55
     type: git
     params:
     sparse_paths:
@@ -243,7 +243,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_optic_flow.git
     name: mrs_optic_flow
-    rev: 6999cb668938ad063d9ceba33fa3d735cff3e48f
+    rev: 5e9097cdd41b957393c1ce5523dd0ed8a3af8465
     type: git
     params:
     sparse_paths:
@@ -303,7 +303,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: 12acaad2164f48c73763bbaa9322579171755853
+    rev: eeb0c78cd9fa053400256dca33bf563a884965c2
     type: git
     params:
     sparse_paths:
