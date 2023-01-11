@@ -3,7 +3,7 @@
 Meta-Package containing often-used non-essential UAV packages.
 
 | Build status | [![Build Status](https://github.com/ctu-mrs/uav_modules/workflows/Noetic/badge.svg)](https://github.com/ctu-mrs/uav_modules/actions) |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Dependencies
 
@@ -27,7 +27,7 @@ git clone https://github.com/ctu-mrs/uav_modules
 ```
 3. Create a ROS workspace dedicated just to the **uav_modules** package and link the uav_modules into it:
 ```bash
-mkdir -p ~/modules_workspace/src && cd ~/modules_workspace 
+mkdir -p ~/modules_workspace/src && cd ~/modules_workspace
 catkin init
 cd ~/modules_workspace/src
 ln -s ~/git/uav_modules
