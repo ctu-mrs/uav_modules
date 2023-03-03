@@ -231,7 +231,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: ab7dc62cbd2aa3b29b32f296de13d161d3d144df
+    rev: c13ef907fe79e2b34da577626299535f648623d2
     type: git
     params:
     sparse_paths:
@@ -339,7 +339,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 0019e16c6333ee6310f09cae4e5b1322d5fc754b
+    rev: 2a6105705057b3de14c3ca996f22c9cca9646dce
     type: git
     params:
     sparse_paths:
