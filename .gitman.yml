@@ -207,7 +207,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: 94dd717ad82707c06b1dfb9bedd442a7d4e872f1
+    rev: 1a08657785e4b9ea817a5528dee9ab25c01fe5cb
     type: git
     params:
     sparse_paths:
@@ -339,7 +339,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: 2a6105705057b3de14c3ca996f22c9cca9646dce
+    rev: e49c2d2b92b7b5d89e797ce420e1a36ad6616a03
     type: git
     params:
     sparse_paths:
