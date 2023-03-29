@@ -10,6 +10,12 @@ distro=`lsb_release -r | awk '{ print $2 }'`
 
 echo "Starting build using $N_PROC threads"
 cd ~/catkin_ws
+
+# disable building of REALSENSE
+[ ! -z "$GITHUB_CI" ] && touch ~/catkin_ws/src/uav_modules/ros_packages/realsense/ros_packages/realsense/CATKIN_IGNORE
+[ ! -z "$GITHUB_CI" ] && touch ~/catkin_ws/src/uav_modules/ros_packages/realsense/ros_packages/realsense-ros/realsense2_camera/CATKIN_IGNORE
+[ ! -z "$GITHUB_CI" ] && touch ~/catkin_ws/src/uav_modules/ros_packages/realsense/ros_packages/realsense-ros/realsense2_description/CATKIN_IGNORE
+
 source /opt/ros/$ROS_DISTRO/setup.bash
 catkin build --limit-status-rate 0.2 --summarize $N_PROC
 echo "Ended build"

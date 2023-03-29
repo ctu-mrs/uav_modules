@@ -64,7 +64,7 @@ bash $MY_PATH/../ros_packages/ouster/install/install.sh $subinstall_params
 bash $MY_PATH/../ros_packages/mrs_pcl_tools/install/install.sh $subinstall_params
 
 ## | ------------------------ realsense ----------------------- |
-bash $MY_PATH/../ros_packages/realsense/scripts/install_realsense_d435.sh $subinstall_params
+[ -z "$GITHUB_CI" ] && bash $MY_PATH/../ros_packages/realsense/scripts/install_realsense_d435.sh $subinstall_params
 
 ## | -------------------------- aloam ------------------------- |
 bash $MY_PATH/../ros_packages/aloam/install/install.sh $subinstall_params
