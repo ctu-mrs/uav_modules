@@ -30,7 +30,8 @@ jobs:
 
   build:
     runs-on: ubuntu-20.04
-
+    env:
+      GITHUB_CI: true
     steps:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
