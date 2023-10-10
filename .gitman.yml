@@ -14,7 +14,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/aloam.git
     name: aloam
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -38,7 +38,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_pcl_tools.git
     name: mrs_pcl_tools
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -72,9 +72,9 @@ sources:
         target: ros_packages/hector_slam
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/trajectory_loader.git
+  - repo: https://github.com/ctu-mrs/mrs_uav_trajectory_loader.git
     name: trajectory_loader
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -84,9 +84,9 @@ sources:
         target: ros_packages/trajectory_loader
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/path_loader.git
+  - repo: https://github.com/ctu-mrs/mrs_uav_path_loader.git
     name: path_loader
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -110,7 +110,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -122,7 +122,7 @@ sources:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: master
+    rev: old_system
     type: git
     params:
     sparse_paths:
@@ -144,9 +144,9 @@ sources:
         target: ros_packages/mrs_gazebo_extras_resources
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/ouster.git
+  - repo: https://github.com/ctu-mrs/ouster-ros.git
     name: ouster
-    rev: master
+    rev: mrs
     type: git
     params:
     sparse_paths:
@@ -267,7 +267,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/trajectory_loader.git
     name: trajectory_loader
-    rev: 9f4d33669e00768527f3dbadd361034de3383740
+    rev: 839b7ccfd84c3f15d7d73a478a5c06a7017ee266
     type: git
     params:
     sparse_paths:
@@ -303,7 +303,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_utils.git
     name: mrs_utils
-    rev: ade91c622caf14aa34b2ec45f662288ffb4cdf00
+    rev: 26fbf27c79f53a0f85b13f531e2af45203e4474f
     type: git
     params:
     sparse_paths:
@@ -315,7 +315,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/mrs_serial.git
     name: mrs_serial
-    rev: 57e3cd9361e50a2582fd62477862ba85523744a2
+    rev: 178f05cfd8e0f73a86ed5a979fcdf31ddd23886c
     type: git
     params:
     sparse_paths:
@@ -339,7 +339,7 @@ sources_locked:
       - git submodule update --init --recursive
   - repo: https://github.com/ctu-mrs/ouster.git
     name: ouster
-    rev: e49c2d2b92b7b5d89e797ce420e1a36ad6616a03
+    rev: d0ce2c32fd806c71d8a3f9c3f46d3ae7b3fc61f9
     type: git
     params:
     sparse_paths:
