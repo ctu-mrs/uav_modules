@@ -3,7 +3,7 @@
 > :warning: **Attention please: This package is no longer maintained!!!**
 >
 > This is an old package that is no longer maintained.
-> The new version of the UAV Core is located [here](https://github.com/ctu-mrs/mrs_uav_core).
+> The new version of the UAV Modules is located [here](https://github.com/ctu-mrs/mrs_uav_modules).
 > This repository will be erased soon
 
 ## Installation
