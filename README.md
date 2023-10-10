@@ -1,15 +1,10 @@
-# UAV modules
+# The Old UAV modules
 
-Meta-Package containing often-used non-essential UAV packages.
-
-| Build status | [![Build Status](https://github.com/ctu-mrs/uav_modules/workflows/Noetic/badge.svg)](https://github.com/ctu-mrs/uav_modules/actions) |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------|
-
-## Dependencies
-
-* [uav_core](http://github.com/ctu-mrs/uav_core)
-
-We expect that the **uav_core** is up-to-date (master) and compiled withing the `~/mrs_workspace`.
+> :warning: **Attention please: This package is no longer maintained!!!**
+>
+> This is an old package that is no longer maintained.
+> The new version of the UAV Core is located [here](https://github.com/ctu-mrs/mrs_uav_core).
+> This repository will be erased soon
 
 ## Installation
 
